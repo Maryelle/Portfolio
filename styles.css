@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-size: 18px;
+	max-width: 1200px;
+	margin-left: auto;
+	padding-left: 0px;
+	margin-right: auto;
+	align-content: center;
+	background-color: rgba(216,236,243,1.00);
+}
+
+.full_page {
+	text-align: center;
+	width: 1200px;
+	margin: auto;
+	border: 10px;
+}
+
+
+.flex-container {
+	display: flex;
+	flex-grow: 0;
+	background-color: transparent;
+	margin: 0px;
+	padding: 0;
+	align-content: center;
+	width: 100%;
+	height: auto;
+}
+
+.site-nav {
+	width: auto;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu {
+	text-decoration: none;
+	text-decoration-color: black;
+	list-style: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	display: inline-block;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	text-decoration-color: black;
+	font-weight: 800;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	padding: 50px;
+	margin: 30px;
+}
+
+header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 0px;
+	width: 100%;
+	padding: 1.5em;
+	letter-spacing: 0.25em;
+}
+
+h1 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: rgba(224,196,231,1.00);
+	font-size: 80px;
+	letter-spacing: 0.3em;
+	align-content: center;
+}
+
+
+.site-nav {
+	width: auto;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu {
+	text-decoration: none;
+	text-decoration-color: black;
+	list-style: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	display: inline-block;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	text-decoration-color: black;
+	font-weight: 800;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+img {
+	border-radius: 50%;
+	width: 600px;
+	height: 600px;
+}
